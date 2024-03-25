@@ -1,10 +1,9 @@
 import React from 'react';
-import p1 from '../public/p1.png';
 
 const ImageWithOverlay = ({ src, alt, overlayText }) => {
   return (
     <div className="relative pb-full">
-      <img src={p1} className="rounded-lg object-cover w-full h-64" />
+      <img src={src} className="rounded-lg object-cover w-full h-64" alt={alt} />
       <div className="absolute bottom-0 left-0 w-full h-full bg-black opacity-0">
         <div className="px-4 py-4 text-white text-center">
           <h2 className="text-xl font-medium">{overlayText}</h2>
