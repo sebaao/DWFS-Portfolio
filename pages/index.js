@@ -53,7 +53,7 @@ export default function Home() {
   return (
     <div className={darkMode ? 'dark' : ''}>
       <Head>
-        <title>Sebastián A. - Portofolio</title>
+        <title>Sebastián A. López - Portfolio</title>
         <meta name="description" content="Soy Sebastián, desarrollador web y publicista de la UDD. Contactáme!" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -95,9 +95,8 @@ export default function Home() {
             Developer Full Stack and Publicist.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-2x1 mx-auto md:text-xl">
-            Hey! I'm a publicist and developer offering programming and content design services, 
-             using web development technologies and marketing strategies. 
-             <p>Take a look at my projects and let's make digital magic together.</p>
+            Hey! I'm a publicist and developer offering programming and content design services, using web development technologies and marketing strategies.
+             <p>Take a look at my projects, and let's make digital magic together.</p>
             </p>
 
       
@@ -105,8 +104,8 @@ export default function Home() {
         </section>
         <section>
     
-        <div className="text-center">
-  <h2 className="text-lg font-medium mb-4 text-black dark:text-gray-200">Send to me a WhatsApp!</h2>
+        <div className="text-center py-20">
+  <h2 className="text-lg font-medium mb-4 text-black dark:text-gray-200 ">Send to me a WhatsApp!</h2>
   <a href="https://wa.me/56975467484" target="_blank">
   <button className="bg-gradient-to-r from-blue-500 to-green-500 text-white px-4 py-2 border-none rounded-md">
     Go to WhatsApp
@@ -120,23 +119,18 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">About Me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I'm a really Junior web developer who is still learning new technologies
-              required to solve problems of experience into Designing,
-              Development and deployment of Web appication. With a lot of motivation to still learn a litle bit more.
-              <span className="text-teal-500"> A FullStack developer </span> who
+            I'm a really Junior web developer who is still learning the new technologies required to solve problems in the design, Development and deployment of Web application. With a lot of motivation to still learn a little bit more.
+              <span className="text-teal-500"> A Full-Stack developer </span> who
               has expertise in
               <span className="text-teal-500"> Javascript, </span>
               <span className="text-teal-500"> Next.Js, </span>
               <span className="text-teal-500"> React.Js, </span>
               <span className="text-teal-500"> Node.Js, </span>
               <span className="text-teal-500"> MongoDb </span> and
-              <span className="text-teal-500"> Firebase </span> and more. I have
-              collaborated with talanted people to create digital products for
-              both business and consumer use, using the latest web technologies.
+              <span className="text-teal-500"> Firebase </span> and more. I have collaborated with talented people to create digital products for both business and consumer use, using the latest web technologies.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including web design,
-              development/programming and deployment, marketing support and digital campaign strategies.
+            I offer from a wide range of services, including web design, development/programming and deployment, marketing support and digital campaign strategies.
             </p>
           </div>
           <div className="lg:flex gap-3">
@@ -169,7 +163,7 @@ export default function Home() {
               </h3>
               <p className="py-2">
                by the use of API's.
-                intergrated with databases like MongoDb and Firebase.
+                intergrated with databases like MongoDB and Firebase.
               </p>
               <h4 className="py-4 text-teal-600">Programming Tools I Use</h4>
               <p className="text-gray-800 py-1">Postman</p>
@@ -187,11 +181,10 @@ export default function Home() {
                 alt="project deployment"
               />
               <h3 className="text-lg font-medium pt-8 pb-2 ">
-                Project Deployment and Maintance
+              Project Deployment and Maintenance
               </h3>
               <p className="py-2">
-                Your'e never alone, youre with me. Always when you need.
-              </p>
+              You're never alone; you're with me. Always, when you need it.              </p>
               <h4 className="py-4 text-teal-600">Support Tools I Use</h4>
        
               <p className="text-gray-800 py-1">Teamviewer</p>
@@ -212,8 +205,7 @@ export default function Home() {
                 Coming Soon...
               </h3>
               <p className="py-2">
-                Are you interested to deploy a marketing campaign based on your web? Accounts? Legal?
-              </p>
+              Are you interested in deploying a marketing campaign based on your web? Accounts? Legal?              </p>
               <h4 className="py-4 text-teal-600">My partners</h4>
               <p className="text-gray-800 py-1">Profesional Accountant</p>
               <p className="text-gray-800 py-1">Lawyer expert on digital law</p>
@@ -228,22 +220,21 @@ export default function Home() {
               Projects completed and proposals
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              In a constant work to develop new sites, whit diferent paradigms, i made a lot of diferent projects, to really diferent business and people. Working with
+            In my constant work to develop new sites with different paradigms, i made a lot of different projects for really different businesses and people. Working with
               <span className="text-teal-500"> startups </span>
-              guide another <span className="text-teal-500">business </span>
-              and collaborated with talanted people to create digital products
-              for any.
+              guided another <span className="text-teal-500">business </span>
+              and collaborated with talented people to create digital products for any.
             </p>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              I offer from a wide range of services, including brand design,
-              programming and assistant.
+            I offer from a wide range of services, including brand design, programming and assistant.
             </p>
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="lg:flex gap-3">
               <div className="text-center shadow-2xl p-10 rounded-xl my-10  dark:bg-white flex-1">
                 <h3 className="text-2xl py-1 dark:text-black ">
-                  Something what i do.
+                Something that I do.
+
                 </h3>
                 <div>
                   <img

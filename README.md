@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Sebastian A. López
 
-## Getting Started
+¡Bienvenido a mi portfolio web en GitHub! Este es un espacio donde muestro mis proyectos, habilidades y experiencia en desarrollo web.
 
-First, run the development server:
+## Descripción
 
-```bash
+Mi portfolio web, desarrollado con HTML, CSS, JavaScript, Next.js y Tailwind CSS, es una plataforma diseñada para mostrar mi trabajo y experiencia en desarrollo web. Incluye una variedad de secciones, como una página de inicio con información sobre mí, una sección de proyectos destacados y una página de contacto.
+
+## Tecnologías utilizadas
+
+- HTML
+- CSS (con Tailwind CSS)
+- JavaScript
+- Next.js
+
+## Características principales
+
+- Diseño responsive para una experiencia óptima en dispositivos móviles y de escritorio.
+- Sección de proyectos destacados con detalles sobre cada proyecto.
+- Formulario de contacto para que los visitantes puedan ponerse en contacto conmigo.
+- Despliegue en Vercel para una fácil accesibilidad (puedes ver el sitio [https://dwfs-portfolio-futd.vercel.app/](https://dwfs-portfolio-futd.vercel.app/).
+
+## Instalación
+
+1. Clona este repositorio en tu máquina local.
+git clone https://github.com/tu-usuario/Portfolio-Sebastian-A-Lopez.git
+
+2. Instala las dependencias utilizando npm.
+npm install
+
+3. Inicia el servidor de desarrollo.
 npm run dev
-# or
-yarn dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Abre tu navegador web y accede a `http://localhost:3000` para ver el portfolio en tu máquina local.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Contribución
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Las contribuciones son bienvenidas. Si deseas mejorar algo en mi portfolio, no dudes en enviar un pull request. Antes de hacerlo, asegúrate de abrir un issue para discutir los cambios propuestos.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Contacto
 
-## Learn More
+Si tienes alguna pregunta o sugerencia, puedes contactarme a través de mi correo electrónico: [saburto11@gmail.com](mailto:saburto11@gmail.com).
 
-To learn more about Next.js, take a look at the following resources:
+## Licencia
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
