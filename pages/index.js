@@ -42,16 +42,16 @@ export default function Home() {
 
   const fileUrl = '/Sebastián Aburto - CV  EN.pdf';
   const filename = 'Sebastián Aburto - CV  EN.pdf';
-
+  
   const [index, setIndex] = useState(0);
   const images = [
-    
     { src: '/p1.PNG', url: 'https://sebaao.github.io/DWFS-Proyecto-1/' },
     { src: '/p2.PNG', url: 'https://sebaao.github.io/DWFS-Proyecto-2/' },
     { src: '/p3.PNG', url: 'https://sebaao.github.io/DWFS-Proyecto-3/' },
     { src: '/p4.PNG', url: 'https://ratitagamer.netlify.app/' },
     { src: '/p5.PNG', url: 'https://devclanproject.netlify.app/' },
   ];
+  
   
 
   useEffect(() => {
