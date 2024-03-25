@@ -19,7 +19,7 @@ Mi portfolio web, desarrollado con HTML, CSS, JavaScript, Next.js y Tailwind CSS
 - Diseño responsive para una experiencia óptima en dispositivos móviles y de escritorio.
 - Sección de proyectos destacados con detalles sobre cada proyecto.
 - Formulario de contacto para que los visitantes puedan ponerse en contacto conmigo.
-- Despliegue en Vercel para una fácil accesibilidad (puedes ver el sitio [[https://dwfs-portfolio-futd.vercel.app/](https://dwfs-portfolio-xmgn.vercel.app/)]([https://dwfs-portfolio-futd.vercel.app/](https://dwfs-portfolio-xmgn.vercel.app/)).
+- Despliegue en Vercel para una fácil accesibilidad (puedes ver el sitio [[[https://dwfs-portfolio-futd.vercel.app/](https://dwfs-portfolio-xmgn.vercel.app/)]([https://dwfs-portfolio-futd.vercel.app/](https://dwfs-portfolio-xmgn.vercel.app/)](https://dwfs-portfolio.vercel.app/)).
 
 ## Instalación
 
