@@ -46,10 +46,10 @@ export default function Home() {
   const [index, setIndex] = useState(0);
   const images = [
     { src: '/pp1.png', url: 'https://sebaao.github.io/DWFS-Proyecto-1/' },
-    { src: '/pp2.PNG', url: 'https://sebaao.github.io/DWFS-Proyecto-2/' },
-    { src: '/pp3.PNG', url: 'https://sebaao.github.io/DWFS-Proyecto-3/' },
-    { src: '/pp4.PNG', url: 'https://ratitagamer.netlify.app/' },
-    { src: '/pp5.PNG', url: 'https://devclanproject.netlify.app/' },
+    { src: '/pp2.png', url: 'https://sebaao.github.io/DWFS-Proyecto-2/' },
+    { src: '/pp3.png', url: 'https://sebaao.github.io/DWFS-Proyecto-3/' },
+    { src: '/pp4.png', url: 'https://ratitagamer.netlify.app/' },
+    { src: '/pp5.png', url: 'https://devclanproject.netlify.app/' },
   ];
   
   
