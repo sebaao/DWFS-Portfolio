@@ -24,7 +24,7 @@ Mi portfolio web, desarrollado con HTML, CSS, JavaScript, Next.js y Tailwind CSS
 ## Instalación
 
 1. Clona este repositorio en tu máquina local.
-git clone https://github.com/tu-usuario/Portfolio-Sebastian-A-Lopez.git
+git clone https://github.com/sebaao/DWFS-Portfolio
 
 2. Instala las dependencias utilizando npm.
 npm install
