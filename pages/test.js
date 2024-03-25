@@ -1,5 +1,5 @@
 import React from 'react';
-import chat1 from '../public/p1.PNG';
+import chat1 from '../public/chat1.PNG';
 
 const ImageWithOverlay = ({ src, alt, overlayText }) => {
   return (
