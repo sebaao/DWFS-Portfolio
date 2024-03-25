@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { useState, useEffect } from 'react';
 import {
   AiFillTwitterCircle,
   AiFillLinkedin,
@@ -21,27 +22,37 @@ import Skeleton from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import React, { useState, useEffect } from 'react';
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
 
+  useEffect(() => {
+    // Detectar si el usuario tiene la preferencia de modo oscuro configurada en su sistema operativo
+    const prefersDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    // Establecer el modo oscuro según la preferencia del sistema operativo
+    setDarkMode(prefersDarkMode);
+  }, []);
+
   const handleChange = () => {
-    setChecked(!checked);
+    setDarkMode(!darkMode);
   };
 
   const { size, elapsed, percentage, download, cancel, error, isInProgress } =
     useDownloader();
 
-  const fileUrl = '/Joseph Gateru Resume.pdf';
-  const filename = 'Joseph Gateru Resume.pdf';
+  const fileUrl = '/Sebastián Aburto - CV  EN.pdf';
+  const filename = 'Sebastián Aburto - CV  EN.pdf';
 
   const [index, setIndex] = useState(0);
   const images = [
-    { src: '/chat1.PNG', url: 'https://example1.com' },
-    { src: '/chat2.PNG', url: 'https://example2.com' },
-    { src: '/chat3.PNG', url: 'https://example3.com' },
+    { src: '/p1.PNG', url: 'https://sebaao.github.io/DWFS-Proyecto-1/' },
+    { src: '/p2.PNG', url: 'https://sebaao.github.io/DWFS-Proyecto-2/' },
+    { src: '/p3.PNG', url: 'https://sebaao.github.io/DWFS-Proyecto-3/' },
+    { src: '/p4.PNG', url: 'https://sebaao.github.io/DWFS-Proyecto-3/' },
+    { src: '/p5.PNG', url: 'https://ratitagamer.netlify.app/' },
+    { src: '/p6.PNG', url: 'https://devclanproject.netlify.app/' },
   ];
+  
 
   useEffect(() => {
     const intervalId = setInterval(() => {
@@ -71,7 +82,7 @@ export default function Home() {
               </li>
               <li>
                 <button
-                  className="bg-gradient-to-r from-green-500 text- to-blue-900  text-white px-4 py-2 border-none rounded-md ml-8 "
+                  className="bg-gradient-to-r from-red-500 text- to-blue-900  text-white px-4 py-2 border-none rounded-md ml-8 "
                   onClick={() => download(fileUrl, filename)}
                 >
                   Save my CV
@@ -88,7 +99,7 @@ export default function Home() {
                 alt="profile picture"
               />
             </div>
-            <h2 className="text-5xl py-2 text-blue-600 font-medium dark:text-red-500 md:text-6xl">
+            <h2 className="text-5xl py-2 text-blue-600 font-medium dark:text-yellow-500 md:text-6xl">
               Sebastián A. López
             </h2>
             <h3 className="text-2xl py-2 dark:text-white md:text-3xl">
@@ -96,7 +107,7 @@ export default function Home() {
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-2x1 mx-auto md:text-xl">
             Hey! I'm a publicist and developer offering programming and content design services, using web development technologies and marketing strategies.
-             <p>Take a look at my projects, and let's make digital magic together.</p>
+             <p>Take a look at my projects, and let's make digital magic together.✏️</p>
             </p>
 
       
@@ -104,8 +115,8 @@ export default function Home() {
         </section>
         <section>
     
-        <div className="text-center py-20">
-  <h2 className="text-lg font-medium mb-4 text-black dark:text-gray-200 ">Send to me a WhatsApp!</h2>
+        <div className="text-center py-8">
+  <h2 className="text-lg font-medium mb-4 text-black dark:text-gray-200 ">Send to me a WhatsApp!💬</h2>
   <a href="https://wa.me/56975467484" target="_blank">
   <button className="bg-gradient-to-r from-blue-500 to-green-500 text-white px-4 py-2 border-none rounded-md">
     Go to WhatsApp
@@ -113,11 +124,13 @@ export default function Home() {
 </a>
 
 </div>
+
+
         
         </section>
         <section>
           <div>
-            <h3 className="text-3xl py-1 dark:text-white ">About Me</h3>
+            <h3 className="text-3xl py-1 dark:text-white ">🪀About Me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
             I'm a really Junior web developer who is still learning the new technologies required to solve problems in the design, Development and deployment of Web application. With a lot of motivation to still learn a little bit more.
               <span className="text-teal-500"> A Full-Stack developer </span> who
@@ -144,6 +157,9 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2  ">
                 Design for your Web Application
               </h3>
+              <p className="py-2">
+              If you can dream it, you can create it.
+              </p>
             
               <h4 className="py-4 text-teal-600">Design Tools I Use</h4>
               <p className="text-gray-800 py-1">Adobe Photoshop</p>
@@ -194,7 +210,7 @@ export default function Home() {
 
 
             </div>
-            <div className="text-center shadow-2xl p-10 rounded-xl my-10 dark:bg-white flex-1">
+            <div className="text-center shadow-2xl p-10 rounded-xl my-10 dark:bg-white flex-1 bg-beige">
               <Image
                 src={support}
                 width={50}
@@ -217,7 +233,7 @@ export default function Home() {
         <section className="py-10">
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">
-              Projects completed and proposals
+              💻Projects completed and proposals
             </h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
             In my constant work to develop new sites with different paradigms, i made a lot of different projects for really different businesses and people. Working with
@@ -229,6 +245,16 @@ export default function Home() {
             I offer from a wide range of services, including brand design, programming and assistant.
             </p>
           </div>
+
+          <div className="text-center py-10">
+  <h2 className="text-lg font-medium mb-4 text-black dark:text-gray-200 ">Look at my Github!👀</h2>
+  <a href="https://github.com/sebaao" target="_blank">
+  <button className="bg-gradient-to-r from-orange-500 to-purple-500 text-white px-4 py-2 border-none rounded-md">
+    Go to WhatsApp
+  </button>
+</a>
+
+</div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="lg:flex gap-3">
               <div className="text-center shadow-2xl p-10 rounded-xl my-10  dark:bg-white flex-1">
