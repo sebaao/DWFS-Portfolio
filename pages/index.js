@@ -250,7 +250,7 @@ export default function Home() {
   <h2 className="text-lg font-medium mb-4 text-black dark:text-gray-200 ">Look at my Github!👀</h2>
   <a href="https://github.com/sebaao" target="_blank">
   <button className="bg-gradient-to-r from-orange-500 to-purple-500 text-white px-4 py-2 border-none rounded-md">
-    Go to WhatsApp
+    Seba's Github Profile
   </button>
 </a>
 
@@ -266,7 +266,6 @@ export default function Home() {
                   <img
                     src={images[index].src}
                     onClick={() => window.open(images[index].url)}
-                    alt="project 1"
                   />
                 </div>
               </div>
