@@ -45,12 +45,12 @@ export default function Home() {
 
   const [index, setIndex] = useState(0);
   const images = [
+    
     { src: '/p1.PNG', url: 'https://sebaao.github.io/DWFS-Proyecto-1/' },
     { src: '/p2.PNG', url: 'https://sebaao.github.io/DWFS-Proyecto-2/' },
     { src: '/p3.PNG', url: 'https://sebaao.github.io/DWFS-Proyecto-3/' },
-    { src: '/p4.PNG', url: 'https://sebaao.github.io/DWFS-Proyecto-3/' },
-    { src: '/p5.PNG', url: 'https://ratitagamer.netlify.app/' },
-    { src: '/p6.PNG', url: 'https://devclanproject.netlify.app/' },
+    { src: '/p4.PNG', url: 'https://ratitagamer.netlify.app/' },
+    { src: '/p5.PNG', url: 'https://devclanproject.netlify.app/' },
   ];
   
 
@@ -266,6 +266,7 @@ export default function Home() {
                   <img
                     src={images[index].src}
                     onClick={() => window.open(images[index].url)}
+                    alt='Projects Carrousel '
                   />
                 </div>
               </div>
